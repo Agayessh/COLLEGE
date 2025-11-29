@@ -1,7 +1,0 @@
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP4\MP4\MP4\obj\Debug\MP4.csprojAssemblyReference.cache
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP4\MP4\MP4\obj\Debug\MP4.csproj.CoreCompileInputs.cache
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP4\MP4\MP4\bin\Debug\MP4.exe.config
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP4\MP4\MP4\bin\Debug\MP4.exe
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP4\MP4\MP4\bin\Debug\MP4.pdb
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP4\MP4\MP4\obj\Debug\MP4.exe
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP4\MP4\MP4\obj\Debug\MP4.pdb
