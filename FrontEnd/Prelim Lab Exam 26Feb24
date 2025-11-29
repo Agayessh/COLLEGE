@@ -1,0 +1,300 @@
+<!-- When a number is clicked, its background should be black/highlighted. When a new number is selected, the highlight should reset into white then the newly selected number will now have the black highlight
+The number will be printed in the designated slot above once it is clicked. It should now disappear when a new number is selected
+If the user selects a color, the number selected will have its background change to that color.
+Printing of number will happen once, but changing of colors can happen multiple times -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+
+
+
+<table>
+
+  <tr>
+
+   <td id="cell1"></td>
+
+   <td id="cell2"></td>
+
+   <td id="cell3"></td>
+
+   <td id="cell4"></td>
+
+   <td id="cell5"></td>
+
+
+
+   <td id="cell6"></td>
+
+   <td id="cell7"></td>
+
+   <td id="cell8"></td>
+
+   <td id="cell9"></td>
+
+   <td id="cell10"></td>
+
+  </tr>
+
+  <tr>
+
+   <td id="cell11"></td>
+
+   <td id="cell12"></td>
+
+   <td id="cell13"></td>
+
+   <td id="cell14"></td>
+
+   <td id="cell15"></td>
+
+
+
+   <td id="cell16"></td>
+
+   <td id="cell17"></td>
+
+   <td id="cell18"></td>
+
+   <td id="cell19"></td>
+
+   <td id="cell20"></td>
+
+  </tr>
+
+
+
+  <tr>
+
+   <td onclick="displayNumber(1)" class="td">1</td>
+
+   <td onclick="displayNumber(2)" class="td">2</td>
+
+   <td onclick="displayNumber(3)" class="td">3</td>
+
+   <td onclick="displayNumber(4)" class="td">4</td>
+
+   <td onclick="displayNumber(5)" class="td">5</td>
+
+
+
+   <td onclick="displayNumber(6)" class="td">6</td>
+
+   <td onclick="displayNumber(7)" class="td">7</td>
+
+   <td onclick="displayNumber(8)" class="td">8</td>
+
+   <td onclick="displayNumber(9)" class="td">9</td>
+
+   <td onclick="displayNumber(10)" class="td">10</td>
+
+  </tr>
+
+  <!-- Another New Table Row -->
+
+  <tr>
+
+   <td onclick="displayNumber(11)" class="td">11</td>
+
+   <td onclick="displayNumber(12)" class="td">12</td>
+
+   <td onclick="displayNumber(13)" class="td">13</td>
+
+   <td onclick="displayNumber(14)" class="td">14</td>
+
+   <td onclick="displayNumber(15)" class="td">15</td>
+
+
+
+   <td onclick="displayNumber(16)" class="td">16</td>
+
+   <td onclick="displayNumber(17)" class="td">17</td>
+
+   <td onclick="displayNumber(18)" class="td">18</td>
+
+   <td onclick="displayNumber(19)" class="td">19</td>
+
+   <td onclick="displayNumber(20)" class="td">20</td>
+
+  </tr>
+
+  <tr>
+
+   <td colspan="2" id="red" onclick="changeColor('red')" class="red">RED</td>
+
+   <td colspan="2" id="blue" onclick="changeColor('blue')" class="blue">BLUE</td>
+
+   <td colspan="2" id="green" onclick="changeColor('green')" class="green">GREEN</td>
+
+   <td colspan="2" id="yellow" onclick="changeColor('yellow')" class="yellow">YELLOW</td>
+
+   <td colspan="2" id="orange" onclick="changeColor('orange')" class="orange">ORANGE</td>
+
+  </tr>
+
+</table>
+
+
+
+<script>
+
+  const colors = ['red', 'blue', 'green', 'yellow', 'orange'];
+
+  let selectedCell = null;
+
+
+
+  function changeColor(color) {
+
+   if (selectedCell) {
+
+    selectedCell.style.backgroundColor = color;
+
+  }
+
+ }
+
+
+
+  function displayNumber(number) {
+
+   if (selectedCell) {
+
+    selectedCell.style.backgroundColor = ''; // Reset previous highlight
+
+  }
+
+
+
+   const displayCell = document.getElementById("cell" + number);
+
+   if (displayCell.parentNode.rowIndex <= 1) {
+
+   displayCell.style.backgroundColor = 'black'; // Highlight the new number in the top two rows
+
+  }
+
+  displayCell.textContent = number;
+
+   selectedCell = displayCell;
+
+ }
+
+</script>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+table 
+
+{
+
+   border-collapse: separate;
+
+   border-spacing: 5px;
+
+   margin: auto;
+
+   text-align: center;
+
+}
+
+
+
+td 
+
+{
+
+   cursor: pointer;
+
+   padding: 10px;
+
+   background-color: white;
+
+   border: 1px solid black;
+
+}
+
+
+
+td:hover 
+
+{
+
+   background-color: black;
+
+   color: white;
+
+}
+
+
+
+.red:hover 
+
+{
+
+   background: red;
+
+}
+
+
+
+.blue:hover 
+
+{
+
+   background: blue;
+
+}
+
+
+
+.green:hover 
+
+{
+
+   background: green;
+
+}
+
+
+
+.yellow:hover 
+
+{
+
+   background: yellow;
+
+}
+
+
+
+.orange:hover 
+
+{
+
+   background: #DC582A;
+
+}
