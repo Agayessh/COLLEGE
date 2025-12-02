@@ -1,0 +1,102 @@
+.model small
+.stack 100h
+.data
+    msg1      db           "Enter 1st number  : $"
+    msg2      db 0dh, 0ah, "Enter 2nd number  : $"
+    msg3    db 0dh, 0ah, "The sum is        : $"
+    msg4   db 0dh, 0ah, "The difference is : $"
+    msg5   db 0dh, 0ah, "The product is    : $"
+    msg6   db 0dh, 0ah, "The quotient is   : $"
+    msg7    db 0dh, 0ah, "The remainder is  : $"
+    num1      db 0
+    num2      db 0
+    sum       db 0
+    diff      db 0
+    prod      db 0
+    quot      db 0
+    rem       db 0
+    
+.code
+    mov ax, @data
+    mov ds,ax    
+    mov ah, 09h
+    lea dx, msg1
+    int 21h
+    
+    mov ah, 01h		  ; read input
+    int 21h
+    sub al, 30h       ; convert to ASCII
+    mov num1, al
+    
+    mov ah, 09h
+    lea dx, msg2
+    int 21h
+    
+    mov ah, 01h		  ; read input
+    int 21h
+    sub al, 30h       ; convert to ASCII
+    mov num2, al
+    
+    add al, num2	  ; sum
+    mov al, num1
+    mov sum, al
+    
+    mov al, num1
+    sub al, num2	  ; diff
+    mov diff, al
+    
+    mov al, num1
+    mov bl, num2
+    mul bl            ; prod in al
+    mov prod, al
+    
+    mov al, num1
+    mov ah, 0         ; clear ah for div
+    mov bl, num2
+    div bl			  ; div
+    mov quot, al	  ; al = quotient
+    mov rem, ah		  ; ah = remainder
+    
+    mov ah, 09h
+    lea dx, msg3
+    int 21h
+    mov dl, sum
+    add dl, 30h       ; convert to ASCII
+    mov ah, 02h
+    int 21h
+    
+    mov ah, 09h
+    lea dx, msg4
+    int 21h
+    mov dl, diff
+    add dl, 30h       ; convert to ASCII
+    mov ah, 02h
+    int 21h
+    
+    mov ah, 09h
+    lea dx, msg5
+    int 21h
+    mov dl, prod
+    add dl, 30h       ; convert to ASCII
+    mov ah, 02h
+    int 21h
+    
+    mov ah, 09h
+    lea dx, msg6
+    int 21h
+    mov dl, quot
+    add dl, 30h       ; convert to ASCII
+    mov ah, 02h
+    int 21h
+    
+    mov ah, 09h
+    lea dx, msg7
+    int 21h
+    mov dl, rem
+    add dl, 30h       ; convert to ASCII
+    mov ah, 02h
+    int 21h
+    
+    mov ah, 4ch
+    int 21h
+end
