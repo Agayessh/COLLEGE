@@ -3,11 +3,11 @@
 .data
     msg1      db           "Enter 1st number  : $"
     msg2      db 0dh, 0ah, "Enter 2nd number  : $"
-    msg3    db 0dh, 0ah, "The sum is        : $"
-    msg4   db 0dh, 0ah, "The difference is : $"
-    msg5   db 0dh, 0ah, "The product is    : $"
-    msg6   db 0dh, 0ah, "The quotient is   : $"
-    msg7    db 0dh, 0ah, "The remainder is  : $"
+    msg3      db 0dh, 0ah, "The sum is        : $"
+    msg4      db 0dh, 0ah, "The difference is : $"
+    msg5      db 0dh, 0ah, "The product is    : $"
+    msg6      db 0dh, 0ah, "The quotient is   : $"
+    msg7      db 0dh, 0ah, "The remainder is  : $"
     num1      db 0
     num2      db 0
     sum       db 0
