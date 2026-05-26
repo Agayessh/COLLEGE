@@ -1,0 +1,7 @@
+C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Aleerah--MidMP2\MP2\MP2\bin\Debug\MP2.exe.config
+C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Aleerah--MidMP2\MP2\MP2\bin\Debug\MP2.exe
+C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Aleerah--MidMP2\MP2\MP2\bin\Debug\MP2.pdb
+C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Aleerah--MidMP2\MP2\MP2\obj\Debug\MP2.csprojAssemblyReference.cache
+C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Aleerah--MidMP2\MP2\MP2\obj\Debug\MP2.csproj.CoreCompileInputs.cache
+C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Aleerah--MidMP2\MP2\MP2\obj\Debug\MP2.exe
+C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Aleerah--MidMP2\MP2\MP2\obj\Debug\MP2.pdb

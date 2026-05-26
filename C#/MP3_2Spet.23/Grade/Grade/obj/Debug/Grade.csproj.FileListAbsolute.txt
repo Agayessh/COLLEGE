@@ -1,0 +1,7 @@
+D:\Eerah\CODING SHITSS\MP3_Yabut\Grade\Grade\obj\Debug\Grade.csproj.AssemblyReference.cache
+D:\Eerah\CODING SHITSS\MP3_Yabut\Grade\Grade\obj\Debug\Grade.csproj.CoreCompileInputs.cache
+D:\Eerah\CODING SHITSS\MP3_Yabut\Grade\Grade\bin\Debug\Grade.exe.config
+D:\Eerah\CODING SHITSS\MP3_Yabut\Grade\Grade\bin\Debug\Grade.exe
+D:\Eerah\CODING SHITSS\MP3_Yabut\Grade\Grade\bin\Debug\Grade.pdb
+D:\Eerah\CODING SHITSS\MP3_Yabut\Grade\Grade\obj\Debug\Grade.exe
+D:\Eerah\CODING SHITSS\MP3_Yabut\Grade\Grade\obj\Debug\Grade.pdb
