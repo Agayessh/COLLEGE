@@ -1,7 +1,0 @@
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP5\MP5\MP5\bin\Debug\MP5.exe.config
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP5\MP5\MP5\bin\Debug\MP5.exe
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP5\MP5\MP5\bin\Debug\MP5.pdb
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP5\MP5\MP5\obj\Debug\MP5.csprojAssemblyReference.cache
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP5\MP5\MP5\obj\Debug\MP5.csproj.CoreCompileInputs.cache
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP5\MP5\MP5\obj\Debug\MP5.exe
-C:\Users\student.ADULAB\Documents\Visual Studio 2017\Yabut_Eerah--MidMP1\MP5\MP5\MP5\obj\Debug\MP5.pdb

@@ -1,7 +1,0 @@
-D:\Eerah\CODING SHITSS\MP2_Yabut\MP2_Yabut\obj\Debug\MP2_Yabut.csproj.AssemblyReference.cache
-D:\Eerah\CODING SHITSS\MP2_Yabut\MP2_Yabut\obj\Debug\MP2_Yabut.csproj.CoreCompileInputs.cache
-D:\Eerah\CODING SHITSS\MP2_Yabut\MP2_Yabut\bin\Debug\MP2_Yabut.exe.config
-D:\Eerah\CODING SHITSS\MP2_Yabut\MP2_Yabut\bin\Debug\MP2_Yabut.exe
-D:\Eerah\CODING SHITSS\MP2_Yabut\MP2_Yabut\bin\Debug\MP2_Yabut.pdb
-D:\Eerah\CODING SHITSS\MP2_Yabut\MP2_Yabut\obj\Debug\MP2_Yabut.exe
-D:\Eerah\CODING SHITSS\MP2_Yabut\MP2_Yabut\obj\Debug\MP2_Yabut.pdb
