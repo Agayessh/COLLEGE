@@ -1,8 +1,6 @@
 Assessment content
 Let's Play BlackJack!
 
-
-
 Gameplay:
 
 Once the website load, a player can click on the button for a new game
@@ -20,3 +18,5 @@ Requirements:
 Use arrays to contain the cards
 Use the Math.random() method to generate and add a random card for the player when it clicks the hit button
 each card should only be shown once for each round, There should be no duplicate card that will be displayed
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bd805a1d-f1a6-4536-b5f0-5229d236ee14" />
