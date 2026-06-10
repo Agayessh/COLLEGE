@@ -5,16 +5,12 @@
   <li> Create a program that can accept 10 names, then display them in reverse order. </li>
   <li> Create a program using loops that will display the multiplication table (table of 10) </li>
 </ul>
+
 <br>
-<table>
-  <tr>
-    <td> <img width="490" height="488" alt="image" src="https://github.com/user-attachments/assets/d48c7cf2-3899-404d-a59e-d63022d55401" /></td>
-  </tr>
-  <tr>  MP1 </tr>
 
-  <tr>
-    <td>  </td>
-  </tr>
-</table>
-
-
+<div style = "text-align: center;">
+<img width="490" height="488" alt="image" src="https://github.com/user-attachments/assets/d48c7cf2-3899-404d-a59e-d63022d55401" />
+  <br>
+<img width="414" height="319" alt="image" src="https://github.com/user-attachments/assets/19a12d1f-58fc-42a2-9665-eb2fdf36d854" />
+  
+</div>
