@@ -27,8 +27,14 @@ A six digit pin is required to login to their accounts
 There should be a maximum amount of withdrawal (20000) for each account
 Once each transaction is performed, the user will be automatically logged out and go back to the "Enter Pin" display. Clear the screen after each transactions
 
+<div>
+  <div>
 <img width="885" height="268" alt="image" src="https://github.com/user-attachments/assets/58c55d98-6d3e-4dae-ad8f-d1fde11e13d1" />
-
+  </div>
+  <div>
 <img width="1012" height="627" alt="image" src="https://github.com/user-attachments/assets/3cb306cf-71d1-40f7-aa7d-129f04bdf497" />
-
+  </div>
+  <div>
 <img width="485" height="147" alt="image" src="https://github.com/user-attachments/assets/d44bdacb-a35c-431b-8c55-3cd2612396b8" />
+  </div>
+</div>
